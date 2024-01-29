@@ -1,0 +1,19 @@
+<?= $this->extend('layout/main') ?>
+<?= $this->extend('layout/menu') ?>
+
+<?= $this->section('isi') ?>
+<div class="col-sm-12">
+    <div class="card-m-b-60">
+        <h4 class="card-header mt-0">
+            Selamat Datang
+            <img src="<?php echo base_url() . '/image/' . 'logostmik.jpg' ?>" height="100" width="100" class="img-fa">
+        </h4>
+    </div>
+    <div class="card-body">
+        <p class="card-text">
+        <div class="alert alert-info"> Selamat Datang Di SIMRS Kami</div>
+        </p>
+    </div>
+</div>
+
+<?= $this->endSection('') ?>
